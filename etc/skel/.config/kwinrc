@@ -15,12 +15,31 @@ wobblywindowsEnabled=true
 [Tiling]
 padding=4
 
+[Tiling][0d3998b5-12fb-5e5d-9844-298a9a2f96a3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][4c85f5bb-4dcb-5bec-8433-5c0e6860d679]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][5ddc44c6-9362-5d7c-a20f-b3999a5d31f7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6dbfdb1c-0d23-5013-9b2c-a432872102bb]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][75ed573d-6eee-5e00-a7c4-c7589c8df991]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][7a4d9374-3ea8-55fa-9d0f-55807a0c9861]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Xwayland]
+Scale=1
+
 [org.kde.kdecoration2]
-ButtonsOnLeft=XAI
-ButtonsOnRight=M
+ButtonsOnLeft=MN
+ButtonsOnRight=IAX
+CloseOnDoubleClickOnMenu=true
