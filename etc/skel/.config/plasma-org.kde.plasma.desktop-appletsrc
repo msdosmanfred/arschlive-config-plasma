@@ -4,21 +4,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometriesHorizontal=
-activityId=ab8ebf21-7a19-4838-b1e5-be19bcd127db
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][Wallpaper][org.kde.image][General]
-FillMode=0
-Image=/usr/share/wallpapers/Altai/
-SlidePaths=/usr/share/wallpapers/
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -39,11 +24,16 @@ fontWeight=400
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
-[Containments][2][Applets][3]
+[Containments][2][Applets][29]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=org.kde.plasma.kicker
 
-[Containments][2][Applets][3][Configuration][General]
+[Containments][2][Applets][29][Configuration]
+PreloadWeight=100
+popupHeight=514
+popupWidth=681
+
+[Containments][2][Applets][29][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][2][Applets][4]
@@ -66,13 +56,31 @@ plugin=org.kde.plasma.systemtray
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;21;22
+AppletOrder=29;4;5;6;7;21;22
+
+[Containments][23]
+ItemGeometries-1366x768=
+ItemGeometriesHorizontal=
+activityId=23995814-19d9-4b3f-a526-f3acd0c7b627
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.potd
+
+[Containments][23][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][23][Wallpaper][org.kde.potd][General]
+Provider=bing
 
 [Containments][8]
 activityId=
 formfactor=2
 immutability=1
-lastScreen=-1
+lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
@@ -136,9 +144,15 @@ plugin=org.kde.plasma.networkmanagement
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][8][Applets][25][Configuration]
+PreloadWeight=26
+
 [Containments][8][Applets][26]
 immutability=1
 plugin=org.kde.plasma.brightness
+
+[Containments][8][Applets][26][Configuration]
+PreloadWeight=26
 
 [Containments][8][Applets][9]
 immutability=1
